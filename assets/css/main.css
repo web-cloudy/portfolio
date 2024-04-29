@@ -4992,7 +4992,8 @@ a img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10px;
 }
 
 .user p {
@@ -5001,7 +5002,6 @@ a img {
 
 @media only screen and (min-width:550px) {
     .user {
-        flex-wrap: nowrap;
         font-size: 75px
     }
 }
@@ -5027,7 +5027,9 @@ a img {
 }
 
 .user-projects {
-    margin: 20px auto
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .user-projects img {
@@ -5047,6 +5049,13 @@ a img {
 
 .user-projects p {
     margin-right: 5px
+}
+
+.content {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media only screen and (min-width:550px) {
