@@ -5034,8 +5034,10 @@ a img {
 
 .user-projects img {
     max-width: 100%;
-    height: auto;
-    border-radius: 5px
+    height: 15rem;
+    width: 25rem;
+    border: 5px solid #e2e2e2;
+    border-radius: 15px;
 }
 
 .user-projects h5 {
